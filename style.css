@@ -1,0 +1,225 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+#img{
+        background-image: url(mountains.jpg);
+        height: 100%; 
+      
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+}
+#postheader{
+    color: hsl(180, 90%, 67%);
+    cursor: pointer;
+    display: flex;
+    margin: 10px;
+  
+  }
+#left{
+    margin-left: 6;
+}
+#header{
+    display: inline;
+}
+#logo{
+    color: white;
+    font-size: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 5px;
+    letter-spacing: 0.2em;
+    cursor: pointer;
+  }
+  #logo::after{
+    content: ".";
+    color:orangered;
+  }
+  .menu{
+    display:inline;
+  }
+  .mmenu{
+    color:rgba(246, 241, 241, 0.825);
+    font-size: 18px;
+    text-decoration: none;
+    padding-right:25px;
+    padding-top: 35px;
+    margin-left:40;
+    margin-top: 50;
+  }
+  #first{
+  
+    position: absolute;
+    top: 45px;
+    left:400px;
+    right:70px;
+  }
+.btn{
+  color:rgb(255, 255, 255);
+  background-color: hsl(180, 89%, 25%);
+  font-size: 15px;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 9px;
+  padding-bottom: 10px;
+  margin-top: 1px;
+  position: absolute;
+  top: 36px;
+  right:98px;
+  border:none;
+}
+.fa-plane-departure{
+  color:rgb(180, 178, 178);
+ 
+}
+.mmenu:hover{
+
+  color:hsl(189, 57%, 52%);
+}
+.fa-brands{
+  letter-spacing: 0.2em;
+  color: hsl(189, 57%, 52%);
+  font-size: larger;
+}
+.fa-user{
+  letter-spacing: 0.2em;
+  color: hsl(189, 57%, 52%);
+}
+.fa-wand-sparkles{
+  letter-spacing: 0.2em;
+  color: hsl(189, 57%, 52%);
+}
+.fa-gear{
+  letter-spacing: 0.2em;
+  color: hsl(189, 57%, 52%);
+}
+.fa-hand-holding-dollar{
+  letter-spacing: 0.2em;
+  color: hsl(189, 57%, 52%);
+}
+.fa-mobile-screen{
+  letter-spacing: 0.2em;
+  color: hsl(189, 57%, 52%);
+}
+.fa-solid{
+  letter-spacing: 0.2em;
+  color: hsl(189, 57%, 52%);
+}
+#sec{
+    color:rgb(153, 155, 156);
+    text-align: left;
+    margin-top: 200;
+    margin-left: 100;
+    font-size: 50;
+    letter-spacing: 0.2em;
+  }
+  #thir{
+    color:hsl(189, 57%, 52%);
+    font-size:50 ;
+    letter-spacing: 0.2em;
+  }
+  #four{
+    color:hsl(189, 57%, 52%);
+    font-size: 50;
+    letter-spacing: 0.2em;
+  }
+  #qu{
+    color:rgb(217, 227, 224);
+    margin-left: 125;
+  }
+  .btn1{
+    color:white;
+    font-size: 30;
+    background: hsl(189, 57%, 52%);
+    border-radius:20px;
+    margin-top: 40;
+    margin-left: 100;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border:none;
+    cursor: pointer;
+
+  }
+
+  #banner{
+    height: 250px;
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    top: 400px;
+    right: 80;
+    /* background-color: aqua; */
+    border:  hsl(189, 57%, 52%)2px solid;
+  }
+  #banner:hover{
+
+    color:hsl(189, 57%, 52%);
+  }
+  #banner2{
+    height: 250px;
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    top: 400px;
+    right: 400;
+    /* background-color: aqua; */
+    border:  hsl(189, 57%, 52%)2px solid;
+  }
+  #banner2:hover{
+
+    color:hsl(189, 57%, 52%);
+  }
+  #b1{
+    text-align: center;
+    font-weight: bold;
+  
+  }
+#b2{
+  text-align: center;
+  font-weight: bold;
+  
+}
+.para1{
+  text-align: justify;
+  margin-top:20px;
+  color:rgb(192, 179, 179);
+  cursor: pointer;
+
+}
+.para1:hover{
+  color:aliceblue
+}
+.para{
+  text-align: justify;
+  margin-top:20px;
+  color:rgb(192, 179, 179);
+  cursor: pointer;
+}
+.para:hover{
+  color:aliceblue
+}
+.he{
+  color:hsl(0, 0%, 100%);
+  font-size:50px;
+  cursor: pointer;
+  margin-top:5px;
+}
+.hee{
+  color:hsl(0, 0%, 98%);
+  font-size:50px;
+  cursor: pointer;
+
+}
+.fa-earth-americas{
+  color:hsl(189, 57%, 52%)2px solid;
+  font-size:40px;
+}
+.fa-motorcycle{
+  color:hsl(189, 57%, 52%)2px solid;
+  font-size:40px;
+}
